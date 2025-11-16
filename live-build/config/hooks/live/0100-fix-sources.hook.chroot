@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Fix the old-style security URL to new style
+sed -i 's|http://security.debian.org/debian-security/ bookworm/updates|http://security.debian.org/debian-security bookworm-security|g' /etc/apt/sources.list
+sed -i 's|http://security.debian.org/ bookworm/updates|http://security.debian.org/debian-security bookworm-security|g' /etc/apt/sources.list

@@ -1,0 +1,18 @@
+# Build artifacts and caches
+live-build/cache/
+live-build/chroot/
+live-build/.build/
+live-build/binary/
+live-build/*.iso
+live-build/*.img
+
+archiso/out/
+archiso/pkg-cache/
+archiso/crowos-profile/work/
+
+# Deprecated directories (keep structure but ignore builds)
+live-wrapper/
+
+# General
+*.log
+*~
