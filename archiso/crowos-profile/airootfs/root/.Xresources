@@ -1,0 +1,42 @@
+! CrowOS Terminal Theme - Dark Mode
+
+! URxvt settings
+URxvt.scrollBar: false
+URxvt.font: xft:monospace:size=10
+URxvt.letterSpace: 0
+
+! Dark color scheme
+URxvt.background: #1c1c1c
+URxvt.foreground: #d0d0d0
+
+! Black
+URxvt.color0: #1c1c1c
+URxvt.color8: #444444
+
+! Red
+URxvt.color1: #d75f5f
+URxvt.color9: #ff8787
+
+! Green
+URxvt.color2: #87af87
+URxvt.color10: #afd787
+
+! Yellow
+URxvt.color3: #d7af5f
+URxvt.color11: #ffd787
+
+! Blue
+URxvt.color4: #5f87af
+URxvt.color12: #87afff
+
+! Magenta
+URxvt.color5: #af87af
+URxvt.color13: #d787d7
+
+! Cyan
+URxvt.color6: #5f8787
+URxvt.color14: #87d7d7
+
+! White
+URxvt.color7: #d0d0d0
+URxvt.color15: #ffffff
