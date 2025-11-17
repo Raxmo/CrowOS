@@ -22,10 +22,10 @@ client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $indicator-color
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $indicator-color
 
-# Start a terminal on launch
+# Start welcome screen on launch
 exec --no-startup-id urxvt
 
-# Use Mouse+$mod to drag floating windows
+# Use Mouse+modifier to drag floating windows
 floating_modifier $mod
 
 # Start a terminal
@@ -142,7 +142,7 @@ mode "resize" {
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
+        # back to normal: Enter or Escape or Mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"

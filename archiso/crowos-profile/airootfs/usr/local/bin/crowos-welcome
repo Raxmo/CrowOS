@@ -1,7 +1,5 @@
-# Auto-clear terminal on new shell
-clear
+#!/bin/bash
 
-# Display welcome message
 cat << 'WELCOME'
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                          Welcome to CrowOS                                ║
@@ -45,5 +43,7 @@ USEFUL COMMANDS
   tree                Directory tree view
   htop                Process monitor
 
+Press Enter to close this window...
 WELCOME
 
+read
